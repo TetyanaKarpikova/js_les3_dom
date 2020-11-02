@@ -566,7 +566,10 @@
 //     ]
 // for (let i = 0; i < users.length; i++){
 //     console.log(users[i])
-//     console.log(users[i].skills)
+//     for (const val of users[i].skills){
+//         console.log(val);
+//     }
+    
 // }
 
 // task 17
@@ -590,7 +593,10 @@
 // let users_skills = []
 // for (let i = 0; i < users.length; i++){
 //     console.log(users[i]);
-//     users_skills.push(users[i].skills);
+//     for (const skill of users[i].skills){
+//         console.log(skill);
+//         users_skills.push(skill);
+//     }
 // }
 // console.log(users_skills);
 
